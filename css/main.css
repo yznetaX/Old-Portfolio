@@ -1,0 +1,587 @@
+.bg-content {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.9) 100%), url("code.png");
+  background-size: cover;
+  background-position: 50% 31%;
+}
+.bg-content .my-content .my-header {
+  color: #FFF;
+  font-size: 60px;
+  font-family: "Comic Sans MS", cursive, sans-seri;
+}
+@media (min-width: 576px) and (max-width: 786px) {
+  .bg-content .my-content .my-header {
+    font-size: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .bg-content .my-content .my-header {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+.bg-content .my-social ul li:first-child {
+  color: #d85111;
+  animation: css 5s ease-in-out infinite alternate-reverse;
+}
+.bg-content .my-social ul li:nth-of-type(2) {
+  color: #1679ce;
+  transition: all 0.2s ease-in-out;
+  animation: css 5s ease-in-out infinite alternate-reverse;
+}
+@keyframes css {
+  0% {
+    opacity: 0.5;
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.bg-content .my-social ul li:nth-of-type(3) {
+  color: #eff320;
+  animation: css 5s ease-in-out infinite alternate-reverse;
+}
+.bg-content .pages-item .item-transp {
+  display: block !important;
+  margin-left: 10px;
+}
+.bg-content .pages-item .item-transp li {
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+}
+.bg-content .pages-item .item-transp li:active {
+  color: #FFF;
+}
+
+/*MY OWN CLASS*/
+.active {
+  color: #FFF;
+}
+
+.do-active {
+  color: rgba(211, 211, 211, 0.671);
+}
+
+.about-me {
+  position: relative;
+}
+.about-me .about-me-content .skill-page,
+.about-me .about-me-content .work-page {
+  margin-right: 20px;
+  right: 0;
+  transition: all 0.3s ease-in;
+}
+.about-me .about-me-content .skill-page i,
+.about-me .about-me-content .work-page i {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  color: #F9F9F9;
+  text-align: center;
+}
+.about-me .about-me-content .skill-page i:hover,
+.about-me .about-me-content .work-page i:hover {
+  color: #1772c7;
+  transition: all 0.3s ease-in;
+}
+.about-me .about-me-content .skill-page .prop-skill,
+.about-me .about-me-content .work-page .prop-skill {
+  display: none;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+.about-me .about-me-content h1 {
+  color: #FFF;
+}
+.about-me .about-me-content .about-p {
+  color: #FFF;
+  letter-spacing: 4px;
+}
+.about-me .about-me-content h4 {
+  color: #FFF;
+}
+.about-me .about-me-content .provid-list {
+  margin-top: 30px;
+}
+.about-me .about-me-content .provid-list .first-pr,
+.about-me .about-me-content .provid-list .second-pr,
+.about-me .about-me-content .provid-list .third-pr {
+  color: #F9f9f9;
+}
+.about-me .about-me-content .provid-list .first-pr i,
+.about-me .about-me-content .provid-list .second-pr i,
+.about-me .about-me-content .provid-list .third-pr i {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #CCC;
+}
+
+.bg-content .skill-pages h1 {
+  margin: 30px 0;
+  color: #989492;
+  transition: all 0.3s ease-in-out;
+}
+.bg-content .skill-pages h1:hover {
+  transform: scale(1.4);
+  color: #dad6d4;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .bg-content .skill-pages h1 {
+    margin: 0 0 10px 0;
+  }
+}
+@media (max-width: 575px) {
+  .bg-content .skill-pages h1 {
+    margin: 0 0 10px 0;
+  }
+}
+.bg-content .skill-pages .card-content .html-card {
+  color: #989492;
+  transition: all 0.5s linear;
+}
+.bg-content .skill-pages .card-content .html-card:hover {
+  color: #d85111;
+}
+.bg-content .skill-pages .card-content .css-card {
+  color: #989492;
+  transition: all 0.5s linear;
+}
+.bg-content .skill-pages .card-content .css-card:hover {
+  color: #1679ce;
+}
+.bg-content .skill-pages .card-content .js-card {
+  color: #989492;
+  transition: all 0.5s linear;
+}
+.bg-content .skill-pages .card-content .js-card:hover {
+  color: #eff320;
+}
+.bg-content .skill-pages .card-content .gulp-card {
+  color: #989492;
+  transition: all 0.5s linear;
+}
+.bg-content .skill-pages .card-content .gulp-card:hover {
+  color: #d81811;
+}
+.bg-content .skill-pages .card-content .sass-card {
+  color: #989492;
+  transition: all 0.5s linear;
+}
+.bg-content .skill-pages .card-content .sass-card:hover {
+  color: #f51eb4;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .bg-content .skill-pages .card-content .sass-card {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .bg-content .skill-pages .card-content .html-card i,
+.bg-content .skill-pages .card-content .css-card i,
+.bg-content .skill-pages .card-content .js-card i,
+.bg-content .skill-pages .card-content .gulp-card i,
+.bg-content .skill-pages .card-content .sass-card i,
+.bg-content .skill-pages .card-content .git-card i,
+.bg-content .skill-pages .card-content .vue-card i,
+.bg-content .skill-pages .card-content .github-card i {
+    font-size: 90px;
+    margin: 0 5px;
+  }
+}
+@media (max-width: 575px) {
+  .bg-content .skill-pages .card-content .html-card i,
+.bg-content .skill-pages .card-content .css-card i,
+.bg-content .skill-pages .card-content .js-card i,
+.bg-content .skill-pages .card-content .gulp-card i,
+.bg-content .skill-pages .card-content .sass-card i,
+.bg-content .skill-pages .card-content .git-card i,
+.bg-content .skill-pages .card-content .vue-card i,
+.bg-content .skill-pages .card-content .github-card i {
+    font-size: 70px;
+  }
+}
+.bg-content .skill-pages .card-content .html-card span,
+.bg-content .skill-pages .card-content .css-card span,
+.bg-content .skill-pages .card-content .js-card span,
+.bg-content .skill-pages .card-content .gulp-card span,
+.bg-content .skill-pages .card-content .sass-card span,
+.bg-content .skill-pages .card-content .git-card span,
+.bg-content .skill-pages .card-content .vue-card span,
+.bg-content .skill-pages .card-content .github-card span {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.bg-content .skill-pages .card-content .html-card span sub,
+.bg-content .skill-pages .card-content .css-card span sub,
+.bg-content .skill-pages .card-content .js-card span sub,
+.bg-content .skill-pages .card-content .gulp-card span sub,
+.bg-content .skill-pages .card-content .sass-card span sub,
+.bg-content .skill-pages .card-content .git-card span sub,
+.bg-content .skill-pages .card-content .vue-card span sub,
+.bg-content .skill-pages .card-content .github-card span sub {
+  font-size: 20px;
+  font-weight: 300;
+}
+.bg-content .skill-pages .card-content .html-card span sup,
+.bg-content .skill-pages .card-content .css-card span sup,
+.bg-content .skill-pages .card-content .js-card span sup,
+.bg-content .skill-pages .card-content .gulp-card span sup,
+.bg-content .skill-pages .card-content .sass-card span sup,
+.bg-content .skill-pages .card-content .git-card span sup,
+.bg-content .skill-pages .card-content .vue-card span sup,
+.bg-content .skill-pages .card-content .github-card span sup {
+  font-size: 25px;
+}
+.bg-content .skill-pages .card-content .html-card span b,
+.bg-content .skill-pages .card-content .css-card span b,
+.bg-content .skill-pages .card-content .js-card span b,
+.bg-content .skill-pages .card-content .gulp-card span b,
+.bg-content .skill-pages .card-content .sass-card span b,
+.bg-content .skill-pages .card-content .git-card span b,
+.bg-content .skill-pages .card-content .vue-card span b,
+.bg-content .skill-pages .card-content .github-card span b {
+  font-weight: 500;
+}
+.bg-content .skill-pages .card-content .vue-card {
+  animation: vue 15s ease-in infinite alternate-reverse;
+}
+@keyframes vue {
+  0%, 40%, 80% {
+    color: #212529;
+  }
+  20%, 60%, 100% {
+    color: #1a811a;
+  }
+}
+.bg-content .skill-pages .card-content .git-card {
+  animation: git 15s ease-in infinite alternate-reverse;
+}
+@keyframes git {
+  0%, 40%, 80% {
+    color: #212529;
+  }
+  20%, 60%, 100% {
+    color: #bb5808;
+  }
+}
+.bg-content .skill-pages .card-content .github-card {
+  animation: github 15s ease-in infinite alternate-reverse;
+}
+@keyframes github {
+  0%, 40%, 80% {
+    color: #212529;
+  }
+  20%, 60%, 100% {
+    color: #7e7979;
+  }
+}
+.bg-content .skill-pages h3 {
+  margin: 20px 0;
+  color: #dad6d4;
+}
+
+.bg-content .contact-page {
+  padding-top: 50px;
+}
+@media (max-width: 575px) {
+  .bg-content .contact-page .email,
+.bg-content .contact-page .phone,
+.bg-content .contact-page .whats-app,
+.bg-content .contact-page .linked-in {
+    width: 50%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .bg-content .contact-page .email,
+.bg-content .contact-page .phone,
+.bg-content .contact-page .whats-app,
+.bg-content .contact-page .linked-in {
+    width: 50%;
+  }
+}
+.bg-content .contact-page .email i,
+.bg-content .contact-page .phone i,
+.bg-content .contact-page .whats-app i,
+.bg-content .contact-page .linked-in i {
+  color: #FFF;
+  transition: all 0.4s ease-in;
+}
+.bg-content .contact-page .whats-app,
+.bg-content .contact-page .linked-in {
+  margin-top: 40px;
+}
+.bg-content .contact-page .email i {
+  color: #d61313;
+  background-color: rgba(32, 29, 29, 0.6);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+}
+.bg-content .contact-page .email i:hover {
+  color: #e0d9d9;
+  background-color: #d61313;
+}
+.bg-content .contact-page .email h2 {
+  transition: all 0.3s linear;
+}
+.bg-content .contact-page .email h2:hover {
+  color: rgba(214, 19, 19, 0.7);
+}
+@media (max-width: 575px) {
+  .bg-content .contact-page .email h2 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .bg-content .contact-page .email h2 {
+    font-size: 25px;
+  }
+}
+.bg-content .contact-page .phone i {
+  color: #0044ff;
+  background-color: rgba(32, 29, 29, 0.6);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+}
+.bg-content .contact-page .phone i:hover {
+  color: #e0d9d9;
+  background-color: #0044ff;
+}
+.bg-content .contact-page .phone h2 {
+  transition: all 0.3s linear;
+}
+.bg-content .contact-page .phone h2:hover {
+  color: rgba(0, 68, 255, 0.7);
+}
+.bg-content .contact-page .whats-app i {
+  color: #0dd80d;
+  background-color: rgba(32, 29, 29, 0.6);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+}
+.bg-content .contact-page .whats-app i:hover {
+  color: #e0d9d9;
+  background-color: #13af13;
+}
+.bg-content .contact-page .whats-app h2 {
+  transition: all 0.3s linear;
+}
+.bg-content .contact-page .whats-app h2:hover {
+  color: rgba(19, 175, 19, 0.7);
+}
+.bg-content .contact-page .linked-in .linked {
+  outline: none;
+}
+.bg-content .contact-page .linked-in .linked .linkedIn {
+  color: #0da9d8;
+  background-color: rgba(32, 29, 29, 0.6);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+}
+.bg-content .contact-page .linked-in .linked .linkedIn:hover {
+  color: #e0d9d9;
+  background-color: #0da9d8;
+}
+.bg-content .contact-page .linked-in h2 {
+  transition: all 0.3s linear;
+}
+.bg-content .contact-page .linked-in h2:hover {
+  color: rgba(13, 169, 216, 0.7);
+}
+.bg-content .contact-page .linked-in h2 i:hover {
+  color: rgba(13, 169, 216, 0.7);
+}
+
+.my-work .bg-work-one {
+  background: url("work-one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-work .bg-work-one .first-work {
+  padding: 20px 0 0;
+}
+.my-work .bg-work-one .first-work .home .button-home {
+  cursor: pointer;
+  display: inline-block;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 4px;
+  background-color: #896442;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+}
+.my-work .bg-work-one .first-work .next-work .shift-button {
+  color: #FFF;
+  float: right;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #905a3c;
+  padding: 4px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 1s ease-in;
+}
+.my-work .bg-work-one .first-work .next-work .shift-button:hover i {
+  transform: translateX(3px);
+  transition: all 0.5s ease-in;
+}
+@media (max-width: 575px) {
+  .my-work .bg-work-one .first-work .next-work .shift-button {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .my-work .bg-work-one .first-work .next-work .shift-button {
+    margin-top: 20px;
+  }
+}
+.my-work .bg-work-one .first-work h2 {
+  color: #FFF;
+}
+.my-work .bg-work-one .first-work img {
+  border: 1px solid #716262;
+  border-radius: 10px;
+  transition: all 1.5s ease-in-out;
+}
+.my-work .bg-work-one .first-work img:hover {
+  transform: scale(0.9, 0.9);
+}
+@media (max-width: 575px) {
+  .my-work .bg-work-one .first-work img {
+    max-width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .my-work .bg-work-one .first-work img {
+    max-width: 100%;
+  }
+}
+.my-work .bg-work-one .first-work .button-content .button-work a {
+  border: 1px solid #54d154;
+  float: left;
+  overflow: hidden;
+  padding: 5px;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #54d154;
+  border-radius: 15px;
+  box-shadow: 2px 2px #3abf3a;
+  transform: rotate(-45deg);
+  text-indent: 20px;
+  margin-left: 55px;
+  text-decoration: none;
+}
+@media (max-width: 575px) {
+  .my-work .bg-work-one .first-work .button-content .button-work a {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .my-work .bg-work-one .first-work .button-content .button-work a {
+    margin-top: 30px;
+  }
+}
+.my-work .bg-work-two {
+  background: url("work-two.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 15% 77%;
+}
+.my-work .bg-work-two .second-work {
+  padding: 20px 0 0;
+}
+.my-work .bg-work-two .second-work .home .button-home {
+  cursor: pointer;
+  display: inline-block;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 4px;
+  background-color: #896442;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.my-work .bg-work-two .second-work .prev-work .shift-button {
+  color: #FFF;
+  float: right;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #905a3c;
+  padding: 4px;
+  border: 1px solid #CCC;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 1s ease-in;
+}
+.my-work .bg-work-two .second-work .prev-work .shift-button:hover i {
+  transform: translateX(-3px);
+  transition: all 0.5s ease-in;
+}
+.my-work .bg-work-two .second-work h2 {
+  color: #0a0a09;
+  font-weight: bold;
+  font-size: 35px;
+}
+.my-work .bg-work-two .second-work img {
+  border: 1px solid #716262;
+  border-radius: 10px;
+  transition: all 1.5s ease-in-out;
+}
+.my-work .bg-work-two .second-work img:hover {
+  transform: scale(0.9, 0.9);
+}
+@media (max-width: 575px) {
+  .my-work .bg-work-two .second-work img {
+    max-width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .my-work .bg-work-two .second-work img {
+    max-width: 100%;
+  }
+}
+.my-work .bg-work-two .second-work .button-content .button-work a {
+  border: 1px solid #493b34;
+  float: left;
+  overflow: hidden;
+  padding: 5px;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #f5941d;
+  border-radius: 15px;
+  box-shadow: 2px 2px #d78521;
+  transform: rotate(-45deg);
+  text-indent: 20px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

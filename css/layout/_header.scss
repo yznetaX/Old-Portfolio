@@ -1,0 +1,95 @@
+.bg-content
+{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.9) 100%), url('code.png');
+    background-size: cover;
+    background-position: 50% 31%;
+    .my-content
+    {
+        .my-header
+        {
+            color: #FFF;
+            font-size: 60px;
+            font-family: "Comic Sans MS", cursive, sans-seri;
+            @media (min-width: 576px) and (max-width: 786px) {
+                font-size: 50px;
+            }
+            @media (max-width: 575px){
+                font-size: 50px;
+                text-align: center;
+            }
+        }
+    }
+    .my-social
+    {
+        ul
+        {
+            li
+            {
+                &:first-child
+                {
+                    color: #d85111;
+                    animation: css 5s ease-in-out infinite alternate-reverse;
+                }
+                &:nth-of-type(2)
+                {
+                    color: #1679ce;
+                    transition: all .2s ease-in-out;
+                    animation: css 5s ease-in-out infinite alternate-reverse;
+                }
+                @keyframes css {
+                    0%
+                    {
+                        opacity: 0.5;
+                    }
+                    25%
+                    {
+                        opacity: 0.8;
+                    }
+                    50%
+                    {
+                        opacity: 0.3;
+                    }
+                    75%
+                    {
+                        opacity: 0.7;
+                    }
+                    100%
+                    {
+                        opacity: 1;
+                    }
+                }
+                &:nth-of-type(3)
+                {
+                    color: #eff320;
+                    animation: css 5s ease-in-out infinite alternate-reverse;
+                }
+            }
+        }
+    }
+    .pages-item
+    {
+        .item-transp
+        {
+            display: block !important;
+            margin-left: 10px;
+            li
+            {
+                transition: all .4s ease-in-out;
+                cursor: pointer;
+                display: inline-block;
+                &:active{
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}
+/*MY OWN CLASS*/
+.active
+{
+    color: #FFF;
+}
+.do-active
+{
+    color: rgba(211, 211, 211, 0.671);
+}

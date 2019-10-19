@@ -1,0 +1,146 @@
+.bg-content
+{
+    .contact-page
+    {
+        padding-top: 50px;
+        .email,
+        .phone,
+        .whats-app,
+        .linked-in
+        {
+            @media (max-width: 575px) {
+                width: 50%;
+            }
+            @media (min-width: 576px) and (max-width:768px) {
+                width: 50%;
+            }
+            i
+            {
+                color: #FFF;
+                transition: all .4s ease-in;
+            }
+        }
+        .whats-app,
+        .linked-in
+        {
+            margin-top: 40px;
+        }
+        .email
+        {
+            i
+            {
+                color: rgb(214, 19, 19);
+                background-color: rgba($color: rgb(32, 29, 29), $alpha: 0.6);
+                border-radius: 50%;
+                width: 140px;
+                height: 140px;
+                line-height: 140px;
+                &:hover
+                {
+                    color: rgb(224, 217, 217);
+                    background-color: rgb(214, 19, 19);
+                }
+            }
+            h2
+            {
+                transition: all .3s linear;
+                &:hover
+                {
+                    color: rgba($color: rgb(214, 19, 19), $alpha: 0.7);
+                }
+                @media (max-width: 575px) {
+                    font-size: 25px;
+                }
+                @media (min-width: 576px) and (max-width:768px) {
+                    font-size: 25px;
+                }
+            }
+        }
+        .phone
+        {
+            i
+            {
+                color: rgb(0, 68, 255);
+                background-color: rgba($color: rgb(32, 29, 29), $alpha: 0.6);
+                border-radius: 50%;
+                width: 140px;
+                height: 140px;
+                line-height: 140px;
+                &:hover
+                {
+                    color: rgb(224, 217, 217);
+                    background-color: rgb(0, 68, 255);
+                }
+            }
+            h2
+            {
+                transition: all .3s linear;
+                &:hover
+                {
+                    color: rgba($color: rgb(0, 68, 255), $alpha: 0.7);
+                }
+            }
+        }
+        .whats-app
+        {
+            i
+            {
+                color: rgb(13, 216, 13);
+                background-color: rgba($color: rgb(32, 29, 29), $alpha: 0.6);
+                border-radius: 50%;
+                width: 140px;
+                height: 140px;
+                line-height: 140px;
+                &:hover
+                {
+                    color: rgb(224, 217, 217);
+                    background-color: rgb(19, 175, 19);
+                }
+            }
+            h2
+            {
+                transition: all .3s linear;
+                &:hover
+                {
+                    color: rgba($color: rgb(19, 175, 19), $alpha: 0.7);
+                }
+            }
+        }
+        .linked-in
+        {
+            .linked
+            {
+                outline: none;
+                .linkedIn
+                {
+                    color: rgb(13, 169, 216);
+                    background-color: rgba($color: rgb(32, 29, 29), $alpha: 0.6);
+                    border-radius: 50%;
+                    width: 140px;
+                    height: 140px;
+                    line-height: 140px;
+                    &:hover
+                    {
+                        color: rgb(224, 217, 217);
+                        background-color: rgb(13, 169, 216);
+                    }
+                }
+            }
+            h2
+            {
+                transition: all .3s linear;
+                &:hover
+                {
+                    color: rgba($color: rgb(13, 169, 216), $alpha: 0.7);
+                }
+                i
+                {
+                    &:hover
+                    {
+                        color: rgba($color: rgb(13, 169, 216), $alpha: 0.7);
+                    }
+                }
+            }
+        }
+    }
+}

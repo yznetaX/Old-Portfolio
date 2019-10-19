@@ -1,0 +1,206 @@
+ .my-work
+    {
+        .bg-work-one
+        {
+            background: url('work-one.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            .first-work
+            {
+                padding: 20px 0 0;
+                .home
+                {
+                    .button-home
+                    {
+                        cursor: pointer;
+                        display: inline-block;
+                        color: #FFF;
+                        font-weight: 700;
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                        padding: 4px;
+                        background-color: #896442;
+                        border: 1px solid #CCC;
+                        border-radius: 10px;
+                    }
+                }
+                .next-work
+                {
+                    .shift-button
+                    {
+                        color: #FFF;
+                        float: right;
+                        overflow: hidden;
+                        font-weight: bold;
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                        background-color: #905a3c;
+                        padding: 4px;
+                        border: 1px solid #CCC;
+                        cursor: pointer;
+                        border-radius: 10px;
+                        transition: all 1s ease-in;
+                        &:hover
+                        {
+                            i
+                            {
+                                transform: translateX(3px);
+                                transition: all .5s ease-in;
+                            }
+                        }
+                        @media (max-width: 575px){
+                            margin-top: 20px;
+                        }
+                        @media (min-width: 576px) and (max-width: 768px){
+                            margin-top: 20px;
+                        }
+                    }
+                }
+                h2
+                {
+                    color: #FFF;
+                }
+                img
+                {
+                    border: 1px solid #716262;
+                    border-radius: 10px;
+                    transition: all 1.5s ease-in-out;
+                    &:hover
+                    {
+                        transform: scale(.9,.9);
+                    }
+                    @media (max-width: 575px){
+                        max-width: 100%;
+                    }
+                    @media (min-width: 576px) and (max-width: 768px){
+                        max-width: 100%;
+                    }
+                }
+                .button-content
+                {
+                    .button-work
+                    {
+                        a
+                        {
+                            border: 1px solid #54d154;
+                            float: left;
+                            overflow: hidden;
+                            padding: 5px;
+                            color: #FFF;
+                            font-weight: bold;
+                            background-color: #54d154;
+                            border-radius: 15px;
+                            box-shadow: 2px 2px #3abf3a;
+                            transform: rotate(-45deg);
+                            text-indent: 20px;
+                            margin-left: 55px;
+                            text-decoration: none;
+                            @media (max-width: 575px){
+                                margin-top: 30px;
+                            }
+                            @media (min-width: 576px) and (max-width: 768px){
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bg-work-two
+        {
+            background: url('work-two.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 15% 77%;
+            .second-work
+            {
+                padding: 20px 0 0;
+                .home
+                {
+                    .button-home
+                    {
+                        cursor: pointer;
+                        display: inline-block;
+                        color: #FFF;
+                        font-weight: 700;
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                        padding: 4px;
+                        background-color: #896442;
+                        border: 1px solid #CCC;
+                        border-radius: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+                .prev-work
+                {
+                    .shift-button
+                    {
+                        color: #FFF;
+                        float: right;
+                        overflow: hidden;
+                        font-weight: bold;
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                        background-color: #905a3c;
+                        padding: 4px;
+                        border: 1px solid #CCC;
+                        cursor: pointer;
+                        border-radius: 10px;
+                        transition: all 1s ease-in;
+                        &:hover
+                        {
+                            i
+                            {
+                                transform: translateX(-3px);
+                                transition: all .5s ease-in;
+                            }
+                        }
+                    }
+                }
+                h2
+                {
+                    color: #0a0a09;
+                    font-weight: bold;
+                    font-size: 35px;
+                }
+                img
+                {
+                    border: 1px solid #716262;
+                    border-radius: 10px;
+                    transition: all 1.5s ease-in-out;
+                    &:hover
+                    {
+                        transform: scale(.9,.9);
+                    }
+                    @media (max-width: 575px){
+                        max-width: 100%;
+                    }
+                    @media (min-width: 576px) and (max-width: 768px){
+                        max-width: 100%;
+                    }
+                }
+                .button-content
+                {
+                    .button-work
+                    {
+                        a
+                        {
+                            border: 1px solid #493b34;
+                            float: left;
+                            overflow: hidden;
+                            padding: 5px;
+                            color: #FFF;
+                            font-weight: bold;
+                            background-color: #f5941d;
+                            border-radius: 15px;
+                            box-shadow: 2px 2px #d78521;
+                            transform: rotate(-45deg);
+                            text-indent: 20px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }   
+    }

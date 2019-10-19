@@ -1,0 +1,67 @@
+.about-me
+{
+    position: relative;
+    .about-me-content
+    {
+        .skill-page,
+        .work-page
+        {
+            margin-right: 20px;
+            right: 0;
+            transition: all .3s ease-in;
+            i
+            {
+                cursor: pointer;
+                transition: all .3s ease-in;
+                color: #F9F9F9;
+                text-align: center;
+                &:hover
+                {
+                    color: rgb(23, 114, 199);
+                    transition: all .3s ease-in;
+                }
+            }
+            .prop-skill
+            {
+                display: none;
+                color: #FFF;
+                font-size: 18px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                transition: all .3s ease-in-out;           
+            }
+        }
+        h1
+        {
+            color: #FFF;
+        }
+        .about-p
+        {
+            color: #FFF;
+            letter-spacing: 4px;
+        }
+        h4
+        {
+            color: #FFF;
+        }
+        .provid-list
+        {
+            margin-top: 30px;
+            .first-pr,
+            .second-pr,
+            .third-pr
+            {
+                color: #F9f9f9;
+                i
+                {
+                    background: rgba($color: #000, $alpha: 0.7);
+                    padding: 20px;
+                    border-top-right-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    border: 1px solid #CCC;
+
+                }
+            }
+        }
+    }
+}

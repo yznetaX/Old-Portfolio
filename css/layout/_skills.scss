@@ -1,0 +1,159 @@
+.bg-content
+{
+    .skill-pages
+    {
+        h1
+        {
+            margin: 30px 0;
+            color: #989492;
+            transition: all .3s ease-in-out;
+            &:hover
+            {
+                transform: scale(1.4);
+                color: #dad6d4;
+            }
+            @media (min-width: 576px) and (max-width: 768px){
+                margin: 0 0 10px 0;
+            }
+            @media (max-width: 575px){
+                margin: 0 0 10px 0;
+            }
+        }
+        .card-content
+        {
+            .html-card
+            {
+                color: #989492;
+                transition: all .5s linear;
+                &:hover
+                {
+                    color: #d85111;
+                }
+            }
+            .css-card
+            {
+                color: #989492;
+                transition: all .5s linear;
+                &:hover
+                {
+                    color: #1679ce;
+                }
+            }
+            .js-card
+            {
+                color: #989492;
+                transition: all .5s linear;
+                &:hover
+                {
+                    color: #eff320;
+                }
+            }
+            .gulp-card
+            {
+                color: #989492;
+                transition: all .5s linear;
+                &:hover
+                {
+                    color: #d81811;
+                }
+            }
+            .sass-card
+            {
+                color: #989492;
+                transition: all .5s linear;
+                &:hover
+                {
+                    color: #f51eb4;
+                }
+                @media (min-width: 576px) and (max-width: 768px){
+                    text-align: center;
+                }
+            }
+            .html-card,
+            .css-card,
+            .js-card,
+            .gulp-card,
+            .sass-card,
+            .git-card,
+            .vue-card,
+            .github-card
+            {
+                i
+                {
+                    @media (min-width: 576px) and (max-width: 768px){
+                        font-size: 90px;
+                        margin: 0 5px;
+                    }
+                    @media (max-width: 575px){
+                        font-size: 70px;
+                    }
+                }
+                span
+                {
+                    margin-top: 20px;
+                    font-weight: bold;
+                    sub
+                    {
+                        font-size: 20px;
+                        font-weight: 300;
+                    }
+                    sup
+                    {
+                        font-size: 25px;
+                    }
+                    b
+                    {
+                        font-weight: 500;
+                    }
+                }
+            }
+            .vue-card
+            {
+                animation: vue 15s ease-in infinite alternate-reverse;
+            }
+            @keyframes vue {
+                0%,40%,80%
+                {
+                    color: #212529;
+                }
+                20%,60%,100%
+                {
+                    color: rgb(26, 129, 26);
+                }
+            }
+            .git-card
+            {
+                animation: git 15s ease-in infinite alternate-reverse;
+            }
+            @keyframes git {
+                0%,40%,80%
+                {
+                    color: #212529;
+                }
+                20%,60%,100%
+                {
+                    color: rgb(187, 88, 8);
+                }
+            }
+            .github-card
+            {
+                animation: github 15s ease-in infinite alternate-reverse;
+            }
+            @keyframes github {
+                0%,40%,80%
+                {
+                    color: #212529;
+                }
+                20%,60%,100%
+                {
+                    color: rgb(126, 121, 121);
+                }
+            }
+        }
+        h3
+        {
+            margin: 20px 0;
+            color: #dad6d4;
+        }
+    }
+}
